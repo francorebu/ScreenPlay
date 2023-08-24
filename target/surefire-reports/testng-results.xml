@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="17461" started-at="2023-07-10T10:28:12 ART" finished-at="2023-07-10T10:28:30 ART">
+  <suite name="Surefire suite" duration-ms="17049" started-at="2023-07-10T16:26:37 ART" finished-at="2023-07-10T16:26:54 ART">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="17461" started-at="2023-07-10T10:28:12 ART" finished-at="2023-07-10T10:28:30 ART">
+    <test name="Surefire test" duration-ms="17049" started-at="2023-07-10T16:26:37 ART" finished-at="2023-07-10T16:26:54 ART">
       <class name="tests.LoginSuccesfulTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginSuccesfulTest@56235b8e]" name="setUp" is-config="true" duration-ms="5535" started-at="2023-07-10T10:28:12 ART" finished-at="2023-07-10T10:28:18 ART">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginSuccesfulTest@3632be31]" name="setUp" is-config="true" duration-ms="5334" started-at="2023-07-10T16:26:37 ART" finished-at="2023-07-10T16:26:43 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginSuccesful()[pri:0, instance:tests.LoginSuccesfulTest@56235b8e]" name="loginSuccesful" duration-ms="2813" started-at="2023-07-10T10:28:18 ART" finished-at="2023-07-10T10:28:20 ART">
+        <test-method status="PASS" signature="loginSuccesful()[pri:0, instance:tests.LoginSuccesfulTest@3632be31]" name="loginSuccesful" duration-ms="2705" started-at="2023-07-10T16:26:43 ART" finished-at="2023-07-10T16:26:45 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSuccesful -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginSuccesfulTest@56235b8e]" name="tearDown" is-config="true" duration-ms="681" started-at="2023-07-10T10:28:20 ART" finished-at="2023-07-10T10:28:21 ART">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginSuccesfulTest@3632be31]" name="tearDown" is-config="true" duration-ms="638" started-at="2023-07-10T16:26:45 ART" finished-at="2023-07-10T16:26:46 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginSuccesfulTest -->
       <class name="tests.LoginUnSuccesFulTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginUnSuccesFulTest@3632be31]" name="setUp" is-config="true" duration-ms="4894" started-at="2023-07-10T10:28:21 ART" finished-at="2023-07-10T10:28:26 ART">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginUnSuccesFulTest@5abca1e0]" name="setUp" is-config="true" duration-ms="5048" started-at="2023-07-10T16:26:46 ART" finished-at="2023-07-10T16:26:51 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginUnSuccesful()[pri:0, instance:tests.LoginUnSuccesFulTest@3632be31]" name="loginUnSuccesful" duration-ms="2850" started-at="2023-07-10T10:28:26 ART" finished-at="2023-07-10T10:28:29 ART">
+        <test-method status="PASS" signature="loginUnSuccesful()[pri:0, instance:tests.LoginUnSuccesFulTest@5abca1e0]" name="loginUnSuccesful" duration-ms="2662" started-at="2023-07-10T16:26:51 ART" finished-at="2023-07-10T16:26:54 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUnSuccesful -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginUnSuccesFulTest@3632be31]" name="tearDown" is-config="true" duration-ms="652" started-at="2023-07-10T10:28:29 ART" finished-at="2023-07-10T10:28:30 ART">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginUnSuccesFulTest@5abca1e0]" name="tearDown" is-config="true" duration-ms="622" started-at="2023-07-10T16:26:54 ART" finished-at="2023-07-10T16:26:54 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

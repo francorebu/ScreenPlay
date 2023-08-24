@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeClass;
 import tasks.CheckLoginErrorMessage;
 import tasks.CheckTopBar;
 import tasks.Login;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 
@@ -24,7 +25,7 @@ public class BaseTest {
     }
 
     public void driverSetup(){
-        System.setProperty("webdriver.chrome.driver", "C:/Automation/chromedriver_win32/chromedriver.exe");
+        WebDriverManager.chromedriver().setup(); // This will download the appropriate ChromeDriver version
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
